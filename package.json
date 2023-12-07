@@ -1,0 +1,11 @@
+{
+  "name": "mocks",
+  "version": "1.0.0",
+  "description": "mocks lesson",
+  "main": "index.js",
+  "scripts": {
+    "test": "node teste.js"
+  },
+  "author": "Thami Vicente",
+  "license": "ISC"
+}
