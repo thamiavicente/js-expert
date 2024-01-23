@@ -20,7 +20,7 @@ No exemplo a seguir, temos uma função que recebe um arquivo e valida seu conte
 
 ## Glossário
 Nessa seção você encontra alguns termos que apareceram durante o curso e que fui buscar mais informações sobre.
-- IFEE: 
-- Assert do node JS: 
+- **IIFE (Self-Executing Anonymous Function):** É um design pattern formado por duas partes, sendo a primeira uma função anônima de escopo léxico e a segunda, a expressão (), que indicará ao JS que a função deve ser executada.
+- Assert do node JS:
   
 ## Certificado
