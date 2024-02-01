@@ -16,6 +16,8 @@ Os mocks são unidades de código que simulam unidades reais. Com elas vocês co
 
 No exemplo a seguir, temos uma função que recebe um arquivo e valida seu conteúdo. Nesse momento não precisamos testar as unidades de recebimento ou upload de arquivos, apenas se nosso código está validando o conteúdo corretamente.
 
+**[Exemplo de mocks](https://github.com/thamiavicente/js-expert/tree/main/Exemplos/1-Mocks)**
+
 # Conclusão
 
 ## Glossário
