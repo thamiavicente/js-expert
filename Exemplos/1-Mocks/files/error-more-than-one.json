@@ -1,0 +1,13 @@
+[{
+    "nome": "Katia",
+    "sobrenome": "Gonçalves",
+    "idade": 42,
+    "cidade": "Manaus"
+},
+
+{
+    "nome": "Paulo",
+    "sobrenome": "Santana",
+    "idade": 67,
+    "cidade": "Campinas"
+}]

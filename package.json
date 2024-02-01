@@ -4,7 +4,7 @@
   "description": "mocks lesson",
   "main": "index.js",
   "scripts": {
-    "test": "node teste.js"
+    "test": "node ./Exemplos/1-Mocks/index.test.js"
   },
   "author": "Thami Vicente",
   "license": "ISC"

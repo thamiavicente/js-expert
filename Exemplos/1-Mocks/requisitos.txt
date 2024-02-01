@@ -1,0 +1,5 @@
+Precisamos testar nosso validador de conteúdo. Ele deve receber um arquivo .json contendo as informações de um usuário. O teste deve verificar se o arquivo passa nas seguintes validações:
+
+1- Deve conter nome, sobrenome, idade e cidade, não aceitando que nenhum dos campos seja vazio
+2- Cada arquivo deve conter apenas 1 usuário
+3- Não podemos aceitar usuários que tenham menos de 18 anos
