@@ -20,9 +20,27 @@ No exemplo a seguir, temos uma função que recebe um arquivo e valida seu conte
 
 # Conclusão
 
-## Glossário
+## Glossário e mais informações
 Nessa seção você encontra alguns termos que apareceram durante o curso e que fui buscar mais informações sobre.
-- **IIFE (Self-Executing Anonymous Function):** É um design pattern formado por duas partes, sendo a primeira uma função anônima de escopo léxico e a segunda, a expressão (), que indicará ao JS que a função deve ser executada.
-- Assert do node JS:
+- **IIFE (Immediately Invoked Function Expression):** Um função que é definida e executada imediatamente após sua criação. (() => {...})(); 
+- **Modos de importação e exportação no JS:**
+**Module.export**
+- Usado no Node.js
+- Anterior ao suporte nativo de ESModules
+- Export:
+const saudacao = () => 'Olá!';
+module.exports = saudacao;
+- Import:
+const saudacao = require('./arquivo');
+console.log(saudacao());
+**Export**
+- Usado em navegadores e também no Node.js com "type": "module" no package.json
+- Export:
+export default function saudacao() {
+  return 'Olá!';
+}
+- Import
+import saudacao from './arquivo.js';
+- **assert:** Valida se determinada condição é verdadeira, caso não seja, returna "error"
   
 ## Certificado
