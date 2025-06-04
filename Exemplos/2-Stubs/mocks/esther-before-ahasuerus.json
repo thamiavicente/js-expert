@@ -1,0 +1,118 @@
+{
+  "objectID": 436453,
+  "isHighlight": false,
+  "accessionNumber": "69.281",
+  "accessionYear": "1969",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-20748-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20748-001.jpg",
+  "additionalImages": [
+    "https://images.metmuseum.org/CRDImages/ep/original/Gentileschi Esther x-raynocap.jpg",
+    "https://images.metmuseum.org/CRDImages/ep/original/LC-69_281-2.jpg",
+    "https://images.metmuseum.org/CRDImages/ep/original/LC-69_281-3.jpg"
+  ],
+  "constituents": [
+    {
+      "constituentID": 107691,
+      "role": "Artist",
+      "name": "Artemisia Gentileschi",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500011658",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q212657",
+      "gender": "Female"
+    }
+  ],
+  "department": "European Paintings",
+  "objectName": "Painting",
+  "title": "Esther before Ahasuerus",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Artist",
+  "artistPrefix": "",
+  "artistDisplayName": "Artemisia Gentileschi",
+  "artistDisplayBio": "Italian, born Rome 1593–died Naples 1654 or later",
+  "artistSuffix": "",
+  "artistAlphaSort": "Gentileschi, Artemisia",
+  "artistNationality": "Italian",
+  "artistBeginDate": "1593",
+  "artistEndDate": "1654",
+  "artistGender": "Female",
+  "artistWikidata_URL": "https://www.wikidata.org/wiki/Q212657",
+  "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500011658",
+  "objectDate": "1620s",
+  "objectBeginDate": 1620,
+  "objectEndDate": 1629,
+  "medium": "Oil on canvas",
+  "dimensions": "82 in. × 8 ft. 11 3/4 in. (208.3 × 273.7 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Height": 208.3,
+        "Width": 273.7
+      }
+    },
+    {
+      "elementName": "Frame",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Depth": 10.16002,
+        "Height": 233.04547,
+        "Width": 299.0856
+      }
+    },
+    {
+      "elementName": "Other",
+      "elementDescription": "Picture + Frame",
+      "elementMeasurements": {
+        "Weight": 58.06042
+      }
+    }
+  ],
+  "creditLine": "Gift of Elinor Dorrance Ingersoll, 1969",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Paintings",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-05-02T04:50:40.06Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436453",
+  "tags": [
+    {
+      "term": "Esther",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901000951",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q732413"
+    },
+    {
+      "term": "Ahasuerus",
+      "AAT_URL": "http://vocab.getty.edu/page/ia/901001013",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q1370497"
+    },
+    {
+      "term": "Men",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+    },
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    }
+  ],
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q3733425",
+  "isTimelineWork": true,
+  "GalleryNumber": ""
+}

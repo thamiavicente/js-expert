@@ -1,0 +1,93 @@
+{
+  "objectID": 436536,
+  "isHighlight": false,
+  "accessionNumber": "1995.535",
+  "accessionYear": "1995",
+  "isPublicDomain": true,
+  "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-17161-001.jpg",
+  "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17161-001.jpg",
+  "additionalImages": [],
+  "constituents": [
+    {
+      "constituentID": 161947,
+      "role": "Artist",
+      "name": "Vincent van Gogh",
+      "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115588",
+      "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5582",
+      "gender": ""
+    }
+  ],
+  "department": "European Paintings",
+  "objectName": "Painting",
+  "title": "Women Picking Olives",
+  "culture": "",
+  "period": "",
+  "dynasty": "",
+  "reign": "",
+  "portfolio": "",
+  "artistRole": "Artist",
+  "artistPrefix": "",
+  "artistDisplayName": "Vincent van Gogh",
+  "artistDisplayBio": "Dutch, Zundert 1853–1890 Auvers-sur-Oise",
+  "artistSuffix": "",
+  "artistAlphaSort": "Gogh, Vincent van",
+  "artistNationality": "Dutch",
+  "artistBeginDate": "1853",
+  "artistEndDate": "1890",
+  "artistGender": "",
+  "artistWikidata_URL": "https://www.wikidata.org/wiki/Q5582",
+  "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500115588",
+  "objectDate": "1889",
+  "objectBeginDate": 1889,
+  "objectEndDate": 1889,
+  "medium": "Oil on canvas",
+  "dimensions": "28 5/8 x 36 in. (72.7 x 91.4 cm)",
+  "measurements": [
+    {
+      "elementName": "Overall",
+      "elementDescription": null,
+      "elementMeasurements": {
+        "Height": 72.7,
+        "Width": 91.4
+      }
+    }
+  ],
+  "creditLine": "The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1995, Bequest of Walter H. Annenberg, 2002",
+  "geographyType": "",
+  "city": "",
+  "state": "",
+  "county": "",
+  "country": "",
+  "region": "",
+  "subregion": "",
+  "locale": "",
+  "locus": "",
+  "excavation": "",
+  "river": "",
+  "classification": "Paintings",
+  "rightsAndReproduction": "",
+  "linkResource": "",
+  "metadataDate": "2025-01-30T04:54:21.21Z",
+  "repository": "Metropolitan Museum of Art, New York, NY",
+  "objectURL": "https://www.metmuseum.org/art/collection/search/436536",
+  "tags": [
+    {
+      "term": "Women",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+    },
+    {
+      "term": "Olive Trees",
+      "AAT_URL": null,
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q35417711"
+    },
+    {
+      "term": "Ladders",
+      "AAT_URL": "http://vocab.getty.edu/page/aat/300022376",
+      "Wikidata_URL": "https://www.wikidata.org/wiki/Q168639"
+    }
+  ],
+  "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19911707",
+  "isTimelineWork": false,
+  "GalleryNumber": "822"
+}
