@@ -4,8 +4,15 @@
   "description": "mocks lesson",
   "main": "index.js",
   "scripts": {
-    "test": "node ./Exemplos/1-Mocks/index.test.js"
+    "test-mock": "node ./Exemplos/1-Mocks/index.test.js",
+    "test-stubs": "node ./Exemplos/2-Stubs/index.test.js"
+  },
+  "engines": {
+    "node": "18"
   },
   "author": "Thami Vicente",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sinon": "^15.2.0"
+  }
 }
