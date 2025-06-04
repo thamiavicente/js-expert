@@ -6,6 +6,7 @@ const BASE_URL = "https://collectionapi.metmuseum.org/public/collection/v1/objec
 const esterBeforeAhasuerus = `${BASE_URL}436453`
 const womenPickingOlives = `${BASE_URL}436536`
 
+//Documentation: https://sinonjs.org/
 const { createSandbox } = require("sinon")
 const sinon = createSandbox()
 const mocks = {
