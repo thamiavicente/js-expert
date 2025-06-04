@@ -7,6 +7,17 @@ Caso queira deixar um feedback, fique a vontade para usar a aba de issues.
 
 # Sumário
 
+# Instruções
+Para rodar os testes presentes nesse projeto, basta fazer o clone do repositório e rodar o comando especificado no tópico.
+
+**Exemplo:** Rodar testes de mock
+1. Clone o repositório
+2. Abra o diretório raiz do projeto no terminal
+3. Rode o comando abaixo no terminal
+   ``` javascript
+   npm run test-mocks
+   ```
+
 # Testes
 
 ## Testes unitários
@@ -16,16 +27,32 @@ Mocks são objetos ou funções que simulam comportamentos de dependências reai
 
 No exemplo a seguir, temos uma função que recebe um arquivo e valida seu conteúdo. Nesse momento não precisamos testar as unidades de recebimento ou upload de arquivos, apenas se nosso código está validando o conteúdo corretamente.
 
-**[Exemplo de mocks](https://github.com/thamiavicente/js-expert/tree/main/Exemplos/1-Mocks)**
+#### **[Exemplo de mocks](https://github.com/thamiavicente/js-expert/tree/main/Exemplos/1-Mocks)**
+``` javascript
+    //Comando para executar os testes
+    npm run test-mocks
+```
 
-## Stubs
+### Stubs
 Um stub é um pedaço de código que substitui uma dependência externa do código que está sendo testado, como por exemplo os dados de uma API. Ele é usado para fornecer respostas pré-definidas a chamadas feitas pelo código em teste, permitindo isolar e testar o comportamento da unidade com base nesses dados controlados.
 
 O stub e o mock podem parecer a mesma coisa, mas, diferente do mock, o stub é utilizado para fornecer dados esperados ao teste, sem necessariamente verificar como esses dados são utilizados. Já o mock também verifica interações, por exemplo, se uma função foi chamada, quantas vezes, com quais argumentos etc. Ele é útil para testar o comportamento e a comunicação entre componentes.
 
 A baixo você pode acessar um exemplo de stub, usado para testar o tratamento dos dados recebidos da API. Como os dados são mockados, não é preciso fazer requisição para a API para ter certeza que o tratamento de dados está funcionando corretamente.
 
-**[Exemplo de stubs](https://github.com/thamiavicente/js-expert/tree/main/Exemplos/2-Stubs)**
+#### **[Exemplo de stubs](https://github.com/thamiavicente/js-expert/tree/main/Exemplos/2-Stubs)**
+``` javascript
+    //Comando para executar os testes
+    npm run test-stubs
+```
+
+### Spies
+
+#### **[Exemplo de spies](https://github.com/thamiavicente/js-expert/tree/main/Exemplos/3-Spies)**
+``` javascript
+    //Comando para executar os testes
+    npm run test-spies
+```
 
 # Conclusão
 

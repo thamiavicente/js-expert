@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test-mock": "node ./Exemplos/1-Mocks/index.test.js",
-    "test-stubs": "node ./Exemplos/2-Stubs/index.test.js"
+    "test-stubs": "node ./Exemplos/2-Stubs/index.test.js",
+    "test-spies": "node ./Exemplos/3-Spies/index.test.js"
   },
   "engines": {
     "node": "18"
