@@ -21,6 +21,9 @@ Para rodar os testes presentes nesse projeto, basta fazer o clone do repositóri
 # Testes
 
 ## Testes unitários
+Testes unitários são utilizados para verificar o funcionamento de unidades isoladas de código, como funções ou métodos, de forma independente de outras partes do sistema. Eles garantem que cada parte pequena do programa funcione como esperado, sem depender de bancos de dados, APIs ou outras dependências externas, o que deixa a execução do código mais rápida.
+
+A seguir, veremos exemplos de testes unitários que você pode rodar localmente para uma experiência prática. Também explicaremos três ferramentas comuns usadas nesse tipo de teste: mocks, stubs e spies.
 
 ### Mocks
 Mocks são objetos ou funções que simulam comportamentos de dependências reais em um teste. Eles permitem isolar o código em teste e verificar como ele interage com essas dependências, sem executar a lógica real delas.
@@ -47,12 +50,17 @@ A baixo você pode acessar um exemplo de stub, usado para testar o tratamento do
 ```
 
 ### Spies
+Um outro conceito importante nos testes unitários são os spies. Os spies permitem observar o comportamento de funções ou métodos durante a execução dos testes, focando não no resultado final, mas sim no processo de execução. Com eles, é possível verificar, por exemplo, quantas vezes uma função foi chamada, quais argumentos ela recebeu e quais valores retornou.
+
+Abaixo temos um exemplo de spy, onde um método da classe Fibonacci é monitorado para validar seu comportamento durante a execução.
 
 #### **[Exemplo de spies](https://github.com/thamiavicente/js-expert/tree/main/Exemplos/3-Spies)**
 ``` javascript
     //Comando para executar os testes
     npm run test-spies
 ```
+
+## Testes end-to-end
 
 # Conclusão
 
@@ -86,5 +94,22 @@ Nessa seção você encontra alguns termos que apareceram durante o curso e que 
         import saudacao from './arquivo.js';
     ```
 - **assert:** É um módulo que valida se determinada condição é verdadeira, caso não seja, retorna um erro
-  
+- **generator:** É uma função que pode ser executada em partes, ou seja, pausar e continuar a execução de onde parou, permitindo que os valores sejam produzidos por demanda.
+  - O generator é criado usando * e yield
+    ``` javascript
+    //Exemplo
+    function * consoleLetter() {
+        yield 'A'
+        yield 'B'
+        yield 'C'
+    }
+    ```
+  - Diferente do return, que devolve um único valor e para a função
+    |Critério|return com lista|yield com generator|
+    |-|-|-|
+    |Memória|Alta (guarda tudo)|Baixa (guarda o estado)|
+    |Performance|Rápido se poucos itens|Escala melhor com muitos|
+    |Reutilizável (continua de onde parou)|Não|Sim (com .next() ou for..of)|
+    |Pausável|Não|Sim|
+
 ## Certificado
