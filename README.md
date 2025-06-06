@@ -10,6 +10,15 @@ Caso queira deixar um feedback, fique a vontade para usar a aba de issues.
 # Instruções
 Para rodar os testes presentes nesse projeto, basta fazer o clone do repositório e rodar o comando especificado no tópico.
 
+# Bibliotecas e dependências
+|Dependência|Versão|
+|-|-:|
+|[node](https://nodejs.org/en)|18|
+|[sinon](https://sinonjs.org/)|15|
+|[mocha](https://mochajs.org/)|10|
+|[supertest](https://github.com/ladjs/supertest#readme)|6|
+|[istanbul (nyc)](https://istanbul.js.org/)|15|
+
 **Exemplo:** Rodar testes de mock
 1. Clone o repositório
 2. Abra o diretório raiz do projeto no terminal
@@ -111,5 +120,8 @@ Nessa seção você encontra alguns termos que apareceram durante o curso e que 
     |Performance|Rápido se poucos itens|Escala melhor com muitos|
     |Reutilizável (continua de onde parou)|Não|Sim (com .next() ou for..of)|
     |Pausável|Não|Sim|
+- **request (req) e response (res):** são objetos que representam a entrada e saída de uma requisição HTTP. Eles trazem a informação que foi enviada pelo cliente (como parâmetros e método) e as informações que o servidor vai responder (como status e data).
+- **buffer:** Uma área de memória que armazena dados temporariamente enquanto eles estão sendo transferidos entre dois lugares.
+- **test suit:** conjunto de testes que verificam algo em comum, como o mesmo módulo, componente ou comportamento
 
 ## Certificado
