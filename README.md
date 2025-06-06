@@ -70,6 +70,18 @@ Abaixo temos um exemplo de spy, onde um método da classe Fibonacci é monitorad
 ```
 
 ## Testes end-to-end
+Testes end-to-end, ou E2E, são usados para verificar o funcionamento do projeto do ponto de vista do usuário final. Eles validam se todas as funcionalidades, desde o back-end até o front-end, estão operando conforme o esperado, simulando interações reais.
+
+Junto a isso, podemos usar ferramentas de análise de cobertura de testes para garantir que todas as partes do sistema foram testadas, seguindo as especificações definidas pela equipe do projeto.
+
+A seguir temos um exemplo de teste e2e que valida se as respostas das rotas da API estão de acordo com o esperado.
+``` javascript
+    //Comando para executar os testes
+    npm run start-e2e //inicia os servidores
+    npm run test-e2e //inicia os servidores + roda os testes
+    npm run test-e2e:dev //inicia os servidores + roda os testes em modo "watch"
+    npm run test-e2e:cov //inicia os servidores + roda os testes + analisa a cobertura de testes
+```
 
 # Conclusão
 
