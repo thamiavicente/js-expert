@@ -10,6 +10,14 @@ Caso queira deixar um feedback, fique a vontade para usar a aba de issues.
 # Instruções
 Para rodar os testes presentes nesse projeto, basta fazer o clone do repositório e rodar o comando especificado no tópico.
 
+**Exemplo:** Rodar testes de mock
+1. Clone o repositório
+2. Abra o diretório raiz do projeto no terminal
+3. Rode o comando abaixo no terminal
+   ``` javascript
+   npm run test-mocks
+   ```
+
 # Bibliotecas e dependências
 |Dependência|Versão|
 |-|-:|
@@ -18,14 +26,6 @@ Para rodar os testes presentes nesse projeto, basta fazer o clone do repositóri
 |[mocha](https://mochajs.org/)|10|
 |[supertest](https://github.com/ladjs/supertest#readme)|6|
 |[istanbul (nyc)](https://istanbul.js.org/)|15|
-
-**Exemplo:** Rodar testes de mock
-1. Clone o repositório
-2. Abra o diretório raiz do projeto no terminal
-3. Rode o comando abaixo no terminal
-   ``` javascript
-   npm run test-mocks
-   ```
 
 # Testes
 
